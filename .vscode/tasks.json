@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build mod (code changes only)",
+      "type": "process",
+      "command": "dotnet",
+      "args": ["build", "SpidermanMod.sln"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Publish mod (text, images and code)",
+      "type": "process",
+      "command": "dotnet",
+      "args": ["publish", "SpidermanMod.csproj"],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Clean mod",
+      "type": "process",
+      "command": "dotnet",
+      "args": ["clean", "SpidermanMod.sln"],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "SPIDERMANMOD-SPIDERMAN_MOD.title": "Spider-Man",
+  "SPIDERMANMOD-SPIDERMAN_MOD.titleObject": "Spider-Man",
+  "SPIDERMANMOD-SPIDERMAN_MOD.description": "A quick-witted wall-crawler who climbed the Spire on a dare.",
+  "SPIDERMANMOD-SPIDERMAN_MOD.pronounObject": "him",
+  "SPIDERMANMOD-SPIDERMAN_MOD.possessiveAdjective": "his",
+  "SPIDERMANMOD-SPIDERMAN_MOD.pronounPossessive": "his",
+  "SPIDERMANMOD-SPIDERMAN_MOD.pronounSubject": "he",
+  "SPIDERMANMOD-SPIDERMAN_MOD.goldMonologue": "Finally, rent money!",
+  "SPIDERMANMOD-SPIDERMAN_MOD.eventDeathPrevention": "Not yet... still got some web left.",
+  "SPIDERMANMOD-SPIDERMAN_MOD.aromaPrinciple": "Web fluid and old pizza.",
+  "SPIDERMANMOD-SPIDERMAN_MOD.cardsModifierTitle": "Spider-Man Cards",
+  "SPIDERMANMOD-SPIDERMAN_MOD.cardsModifierDescription": "Spider-Man's cards can now appear.",
+  "SPIDERMANMOD-SPIDERMAN_MOD.banter.alive.endTurnPing": "Your move!",
+  "SPIDERMANMOD-SPIDERMAN_MOD.banter.dead.endTurnPing": "..."
+}
