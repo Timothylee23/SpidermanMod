@@ -17,7 +17,7 @@ public class SpidermanMod : PlaceholderCharacterModel
 
     public override Color NameColor => Color;
     public override CharacterGender Gender => CharacterGender.Neutral;
-    public override int StartingHp => 70;
+    public override int StartingHp => 99;
     
     public override IEnumerable<CardModel> StartingDeck => [
         ModelDb.Card<StrikeIronclad>(),

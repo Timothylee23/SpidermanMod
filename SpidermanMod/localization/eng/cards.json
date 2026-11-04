@@ -1,3 +1,6 @@
 {
-  
+  "SPIDERMANMOD-WEB_SHOT.title": "Web Shot",
+  "SPIDERMANMOD-WEB_SHOT.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
+  "SPIDERMANMOD-WEB_BLOCK.title": "Web Block",
+  "SPIDERMANMOD-WEB_BLOCK.description": "Gain {Block:diff()} [gold]Block[/gold]."
 }
