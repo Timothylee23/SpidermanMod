@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
+using MegaCrit.Sts2.Core.Nodes.Combat;
 
 namespace SpidermanMod.SpidermanModCode.Character;
 
@@ -47,6 +48,10 @@ public class SpidermanMod : PlaceholderCharacterModel
         override all the other methods that define those assets. 
         These are just some of the simplest assets, given some placeholders to differentiate your character with. 
         You don't have to, but you're suggested to rename these images. */
+    // Uses a still picture for the character in battle instead of the placeholder's animated body.
+    public override NCreatureVisuals? CreateCustomVisuals() =>
+        NodeFactory<NCreatureVisuals>.CreateFromResource("combat_spiderman.png".CharacterUiPath());
+
     public override Control CustomIcon
     {
         get
