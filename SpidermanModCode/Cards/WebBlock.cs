@@ -6,7 +6,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace SpidermanMod.SpidermanModCode.Cards;
 
-public class WebBlock() : SpidermanModCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+public class WebBlock() : SpidermanModCard(1, CardType.Skill, CardRarity.Basic, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(5, ValueProp.Move)];
 

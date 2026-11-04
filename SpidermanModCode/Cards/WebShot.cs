@@ -6,12 +6,12 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace SpidermanMod.SpidermanModCode.Cards;
 
-public class WebShot() : SpidermanModCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public class WebShot() : SpidermanModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(2, ValueProp.Move),
-        new RepeatVar(2)
+        new RepeatVar(3)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

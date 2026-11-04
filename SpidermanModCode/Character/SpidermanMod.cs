@@ -1,6 +1,8 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
+using SpidermanMod.SpidermanModCode.Cards;
 using SpidermanMod.SpidermanModCode.Extensions;
+using SpidermanMod.SpidermanModCode.Relics;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
@@ -20,21 +22,21 @@ public class SpidermanMod : PlaceholderCharacterModel
     public override int StartingHp => 99;
     
     public override IEnumerable<CardModel> StartingDeck => [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<WebShot>(),
+        ModelDb.Card<WebShot>(),
+        ModelDb.Card<WebShot>(),
+        ModelDb.Card<WebShot>(),
+        ModelDb.Card<WebShot>(),
+        ModelDb.Card<WebBlock>(),
+        ModelDb.Card<WebBlock>(),
+        ModelDb.Card<WebBlock>(),
+        ModelDb.Card<WebBlock>(),
+        ModelDb.Card<WebBlock>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<Sticky>()
     ];
     
     public override CardPoolModel CardPool => ModelDb.CardPool<SpidermanModCardPool>();

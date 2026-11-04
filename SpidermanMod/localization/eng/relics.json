@@ -1,3 +1,6 @@
 {
-  
+  "SPIDERMANMOD-STICKY.title": "Sticky",
+  "SPIDERMANMOD-STICKY.description": "At the end of your turn, you may [gold]Retain[/gold] 1 card.",
+  "SPIDERMANMOD-STICKY.flavor": "Some things just won't come off your hands.",
+  "SPIDERMANMOD-STICKY.selectionScreenPrompt": "Choose a card to [gold]Retain[/gold], or confirm to skip."
 }
